@@ -1,4 +1,4 @@
-import '../homepage/Service-card.css'
+import './Service-card.css'
 
 export default function ServiceCard({ 
     imageSrc = "/", 

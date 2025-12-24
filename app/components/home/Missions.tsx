@@ -1,4 +1,4 @@
-import '../homepage/Missions.css'
+import './Missions.css'
 
 export default function Missions() {
     return(

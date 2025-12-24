@@ -1,8 +1,8 @@
-import ServiceCard from "./components/homepage/Service-card"
-import Hero from "./components/homepage/Hero"
-import Missions from "./components/homepage/Missions"
-import Certification from "./components/homepage/Certification"
-import TestimonialCard from "./components/homepage/Testimonial-card"
+import ServiceCard from "./components/home/Service-card"
+import Hero from "./components/home/Hero"
+import Missions from "./components/home/Missions"
+import Certification from "./components/home/Certification"
+import TestimonialCard from "./components/home/Testimonial-card"
 import Footer from "./components/layout/Footer"
 
 import "./styles/page.css"

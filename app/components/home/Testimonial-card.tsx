@@ -1,4 +1,4 @@
-import '../homepage/Testimonial-card.css'
+import './Testimonial-card.css'
 
 export default function TestimonialCard({ 
     description = "Description du témoignage",

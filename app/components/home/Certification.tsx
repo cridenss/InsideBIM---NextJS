@@ -1,4 +1,4 @@
-import '../homepage/Certification.css'
+import './Certification.css'
 
 export default function Certification() {
     return(
