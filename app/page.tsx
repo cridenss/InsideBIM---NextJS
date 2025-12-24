@@ -5,7 +5,7 @@ import Certification from "./components/homepage/Certification"
 import TestimonialCard from "./components/homepage/Testimonial-card"
 import Footer from "./components/layout/Footer"
 
-import "./page.css"
+import "./styles/page.css"
 
 export default function Home() {
   return (

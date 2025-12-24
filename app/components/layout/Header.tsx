@@ -30,24 +30,24 @@ export default function Header() {
             
             {isOpen && (
               <div className="dropdown-menu">
-                <Link href="/Services/releves-scans-3d/">Relevés & Scan 3D</Link>
-                <Link href="/Services/modelisation-bim/">Modélisation BIM</Link>
-                <Link href="/Services/carnets-de-details/">Carnets de détails</Link>
-                <Link href="/Services/familles-parametriques/">Familles paramétriques</Link>
-                <Link href="/Services/synthese-tce/">Synthèse TCE</Link>
-                <Link href="/Services/formations/">Formations</Link>
+                <Link href="/services/releves-scans-3d/">Relevés & Scan 3D</Link>
+                <Link href="/services/modelisation-bim/">Modélisation BIM</Link>
+                <Link href="/services/carnets-de-details/">Carnets de détails</Link>
+                <Link href="/services/familles-parametriques/">Familles paramétriques</Link>
+                <Link href="/services/synthese-tce/">Synthèse TCE</Link>
+                <Link href="/services/formations/">Formations</Link>
               </div>
             )}
 
           </li>
           <li>
-            <Link href="/Realisations">Réalisations</Link>
+            <Link href="/realisations">Réalisations</Link>
           </li>
           <li>
-            <Link href="/Actualites">Actualités</Link>
+            <Link href="/actualites">Actualités</Link>
           </li>
           <li>
-            <Link href="/Contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <button>Contactez nous</button>
