@@ -1,0 +1,7 @@
+.services-section{
+    margin: 0 auto;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+.missions{
+    display: flex;
+}
+
+.missions-media{
+    width: 50%;
+}
+
+.missions-text{
+    width: 50%;
+}

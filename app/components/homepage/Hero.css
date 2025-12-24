@@ -1,0 +1,17 @@
+.hero{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-media{
+    width: 50%;
+}
+
+.hero-media img{
+    width: 100%;
+}
