@@ -4,14 +4,14 @@
     margin: 0 auto;
 }
 
-.hero-text{
+.hero__text{
     width: 50%;
 }
 
-.hero-media{
+.hero__media{
     width: 50%;
 }
 
-.hero-media img{
+.hero__media img{
     width: 100%;
 }

@@ -1,17 +1,19 @@
-import Banner from '../../components/shared/banner'
+import Banner from '../../components/shared/Banner'
 import Project from '../../components/realisations/Project'
 import { projects } from '../../../data/projects'
 
-export default function Realisations() {
+
+export default function RealisationsPage() {
   return (
-    <main className='realisations-page'>
-      <section className="banner-section">
+    <main className="realisations-page">
+      <section className="realisations-page__banner">
         <Banner
-          title = "Nos réalisations"
-          description = "Parce que chaque projet mérite une solution sur mesure, découvrez un aperçu de nos réalisations, conçues pour répondre aux besoins spécifiques de chaque client."
+          title="Nos réalisations"
+          description="Parce que chaque projet mérite une solution sur mesure, découvrez un aperçu de nos réalisations, conçues pour répondre aux besoins spécifiques de chaque client."
         />
       </section>
-      <section className="projects-section">
+
+      <section className="realisations-page__projects">
         {projects.map((project) => (
           <Project
             key={project.id}
@@ -24,5 +26,5 @@ export default function Realisations() {
         ))}
       </section>
     </main>
-  );
+  )
 }

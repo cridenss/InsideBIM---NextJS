@@ -1,16 +1,16 @@
-.header-nav{
+.header__nav{
     display: flex;
     justify-content: space-between;
     width: 90vw;
     margin: 0 auto;
 }
 
-.header-nav-item{
+.header__menu{
     display: flex;
     list-style: none;
 }
 
-.dropdown-menu{
+.header__item--dropdowm{
     display: flex;
     flex-direction: column;
     position: absolute;

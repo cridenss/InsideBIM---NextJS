@@ -1,8 +1,8 @@
-.container{
+.service-card{
     width: 20vw;
     background-color: #8c9c7ca4;
 }
 
-.container img{
+.service-card img{
     width: 50px;
 }

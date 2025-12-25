@@ -1,0 +1,89 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import "./Header.css";
+import { useState } from "react";
+
+export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <header className="header">
+      <nav className="header__nav">
+        <Link href="/" className="header__logo">
+          <Image src="/logo.png" alt="logo-insideBim" width={120} height={50} />
+        </Link>
+
+        <ul className="header__menu">
+          <li
+            className="header__item header__item--dropdown"
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
+          >
+            <Link href="#" className="header__link">
+              Services
+            </Link>
+            {isOpen && (
+              <div className="header__dropdown">
+                <Link
+                  href="/services/releves-scans-3d"
+                  className="header__dropdown-link"
+                >
+                  Relevés & Scan 3D
+                </Link>
+                <Link
+                  href="/services/modelisation-bim"
+                  className="header__dropdown-link"
+                >
+                  Modélisation BIM
+                </Link>
+                <Link
+                  href="/services/carnets-de-details"
+                  className="header__dropdown-link"
+                >
+                  Carnets de détails
+                </Link>
+                <Link
+                  href="/services/familles-parametriques"
+                  className="header__dropdown-link"
+                >
+                  Familles paramétriques
+                </Link>
+                <Link
+                  href="/services/synthese-tce"
+                  className="header__dropdown-link"
+                >
+                  Synthèse TCE
+                </Link>
+                <Link
+                  href="/services/formations"
+                  className="header__dropdown-link"
+                >
+                  Formations
+                </Link>
+              </div>
+            )}
+          </li>
+          <li className="header__item">
+            <Link href="/realisations" className="header__link">
+              Réalisations
+            </Link>
+          </li>
+          <li className="header__item">
+            <Link href="/actualites" className="header__link">
+              Actualités
+            </Link>
+          </li>
+          <li className="header__item">
+            <Link href="/contact" className="header__link">
+              Contact
+            </Link>
+          </li>
+        </ul>
+
+        <button className="header__cta">Contactez nous</button>
+      </nav>
+    </header>
+  );
+}

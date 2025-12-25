@@ -9,7 +9,7 @@ export default function ServiceCard({
     linkText = "En savoir plus"
 }) {
     return(
-        <div className="container">
+        <div className="service-card">
             <img src={imageSrc} alt={imageAlt} />
             <h4>{title}</h4>
             <p>{description}</p>

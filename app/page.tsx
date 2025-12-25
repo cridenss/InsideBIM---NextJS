@@ -9,13 +9,13 @@ import "./styles/page.css";
 
 export default function Home() {
   return (
-    <main className="home-page">
-      <section className="hero-section">
+    <main className="home">
+      <section className="home__hero">
         <Hero />
       </section>
 
-      <section className="services-section">
-        <div className="services-grid">
+      <section className="home__services">
+        <div className="home__services-grid">
           {services.map((service) => (
             <ServiceCard
               key={service.id}
@@ -27,19 +27,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mission-section">
+      <section className="home__mission">
         <Missions />
       </section>
 
-      <section className="certification-section">
+      <section className="home__certification">
         <Certification />
       </section>
 
-      <section className="reviews-section">
-        <div className="reviews-header">
-          <h2>Ce qu'ils disent de nous</h2>
+      <section className="home__reviews">
+        <div className="home__reviews-header">
+          <h2 className="home__reviews-title">Ce qu'ils disent de nous</h2>
         </div>
-        <div className="reviews-grid">
+        <div className="home__reviews-grid">
           {reviews.map((review) => (
             <ReviewCard
               key={review.id}
@@ -51,5 +51,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  );
+  )
 }
