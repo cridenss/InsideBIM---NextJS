@@ -1,6 +1,6 @@
-import Banner from '../../components/shared/Banner'
-import Project from '../../components/realisations/Project'
-import { projects } from '../../../data/projects'
+import Banner from '../../components/pages/services/Banner/Banner'
+import Project from '../../components/pages/realisations/Project/Project'
+import { projects } from '../../../data/realisations/projects'
 
 
 export default function RealisationsPage() {

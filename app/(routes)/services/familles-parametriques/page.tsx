@@ -1,8 +1,14 @@
+import Banner from '../../../components/pages/services/Banner/Banner'
+import { servicesBanner } from "../../../../data/services/servicesBanner"
+
 export default function FamillesParametriques() {
+    const banner = servicesBanner["familles-parametriques"]
+
     return(
-        <div>
-            <h2>Familles paramétriques</h2>
-            <p>Contenu de la page...</p>
-        </div>
+        <Banner
+            title={banner.title}
+            description={banner.description}
+            imageSrc={banner.imageSrc}
+        />
     )
 }

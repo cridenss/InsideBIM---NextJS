@@ -56,14 +56,13 @@ export default function Header() {
                 >
                   Synthèse TCE
                 </Link>
-                <Link
-                  href="/services/formations"
-                  className="header__dropdown-link"
-                >
-                  Formations
-                </Link>
               </div>
             )}
+          </li>
+          <li className="header__item">
+            <Link href="/formations" className="header__link">
+              Formations
+            </Link>
           </li>
           <li className="header__item">
             <Link href="/realisations" className="header__link">
@@ -82,7 +81,9 @@ export default function Header() {
           </li>
         </ul>
 
-        <button className="header__cta">Contactez nous</button>
+        <Link href="/contact" className="header__cta">
+          Contactez nous
+        </Link>
       </nav>
     </header>
   );

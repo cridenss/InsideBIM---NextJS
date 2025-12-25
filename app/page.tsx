@@ -3,8 +3,8 @@ import Hero from "./components/home/Hero/Hero";
 import Missions from "./components/home/Mission/Mission";
 import Certification from "./components/home/Certification/Certification";
 import ReviewCard from "./components/home/ReviewCard/Review-card";
-import { services } from "../data/services";
-import { reviews } from "../data/reviews";
+import { services } from "../data/home/services";
+import { reviews } from "../data/home/reviews";
 import "./styles/page.css";
 
 export default function Home() {
@@ -51,5 +51,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  )
+  );
 }

@@ -31,7 +31,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "data/projects.js"  ],
+    "**/*.mts",
+    "data/realisations/projects.js"
+  ],
   "exclude": ["node_modules"]
 }

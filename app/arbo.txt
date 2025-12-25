@@ -1,17 +1,17 @@
 .
 ├── (routes)
 │   ├── actualites
-│   │   └── page.jsx
+│   │   └── page.tsx
 │   ├── contact
-│   │   └── page.jsx
+│   │   └── page.tsx
+│   ├── formations
+│   │   └── page.tsx
 │   ├── realisations
 │   │   └── page.jsx
 │   └── services
 │       ├── carnets-de-details
 │       │   └── page.tsx
 │       ├── familles-parametriques
-│       │   └── page.tsx
-│       ├── formations
 │       │   └── page.tsx
 │       ├── modelisation-bim
 │       │   └── page.tsx
@@ -22,33 +22,42 @@
 │           └── page.tsx
 ├── components
 │   ├── home
-│   │   ├── Certification.css
-│   │   ├── Certification.tsx
-│   │   ├── Hero.css
-│   │   ├── Hero.tsx
-│   │   ├── Missions.css
-│   │   ├── Missions.tsx
-│   │   ├── Review-card.css
-│   │   ├── Review-card.tsx
-│   │   ├── Service-card.css
-│   │   └── Service-card.tsx
+│   │   ├── Certification
+│   │   │   ├── Certification.css
+│   │   │   └── Certification.tsx
+│   │   ├── Hero
+│   │   │   ├── Hero.css
+│   │   │   └── Hero.tsx
+│   │   ├── Mission
+│   │   │   ├── Mission.css
+│   │   │   └── Mission.tsx
+│   │   ├── ReviewCard
+│   │   │   ├── Review-card.css
+│   │   │   └── Review-card.tsx
+│   │   └── ServiceCard
+│   │       ├── Service-card.css
+│   │       └── Service-card.tsx
 │   ├── layout
-│   │   ├── Footer.css
-│   │   ├── Footer.tsx
-│   │   ├── Header.css
-│   │   └── Header.tsx
-│   ├── realisations
-│   │   ├── Project.css
-│   │   └── Project.tsx
+│   │   ├── Footer
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.tsx
+│   │   └── Header
+│   │       ├── Header.css
+│   │       └── Header.tsx
+│   ├── pages
+│   │   ├── realisations
+│   │   │   ├── Project.css
+│   │   │   └── Project.tsx
+│   │   └── services
+│   │       ├── Banner.css
+│   │       ├── Banner.tsx
+│   │       ├── service-detail-card.css
+│   │       ├── service-detail-card.tsx
+│   │       ├── steps.css
+│   │       ├── steps.tsx
+│   │       ├── who.css
+│   │       └── who.tsx
 │   └── shared
-│       ├── banner.css
-│       ├── banner.tsx
-│       ├── service-detail-card.css
-│       ├── service-detail-card.tsx
-│       ├── steps.css
-│       ├── steps.tsx
-│       ├── who.css
-│       └── who.tsx
 ├── layout.tsx
 ├── page.tsx
 └── styles
@@ -56,4 +65,4 @@
     ├── page.css
     └── variables.css
 
-18 directories, 40 files
+27 directories, 40 files

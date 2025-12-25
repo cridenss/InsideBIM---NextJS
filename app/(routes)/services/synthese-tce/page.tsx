@@ -1,8 +1,14 @@
+import Banner from '../../../components/pages/services/Banner/Banner'
+import { servicesBanner } from "../../../../data/services/servicesBanner"
+
 export default function SyntheseTce() {
+    const banner = servicesBanner["synthese-tce"]
+
     return(
-        <div>
-            <h2>Synthèse TCE</h2>
-            <p>Contenu de la page...</p>
-        </div>
+        <Banner
+            title={banner.title}
+            description={banner.description}
+            imageSrc={banner.imageSrc}
+        />
     )
 }
