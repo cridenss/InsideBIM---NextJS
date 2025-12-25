@@ -1,5 +1,3 @@
-import './Missions.css'
-
 export default function Missions() {
     return(
         <div className="missions">

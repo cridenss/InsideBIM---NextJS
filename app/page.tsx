@@ -1,8 +1,8 @@
-import ServiceCard from "./components/home/Service-card";
-import Hero from "./components/home/Hero";
-import Missions from "./components/home/Missions";
-import Certification from "./components/home/Certification";
-import ReviewCard from "./components/home/Review-card";
+import ServiceCard from "./components/home/ServiceCard/Service-card";
+import Hero from "./components/home/Hero/Hero";
+import Missions from "./components/home/Mission/Mission";
+import Certification from "./components/home/Certification/Certification";
+import ReviewCard from "./components/home/ReviewCard/Review-card";
 import { services } from "../data/services";
 import { reviews } from "../data/reviews";
 import "./styles/page.css";
