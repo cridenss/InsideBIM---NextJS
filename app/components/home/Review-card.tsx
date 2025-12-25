@@ -1,12 +1,12 @@
-import './Testimonial-card.css'
+import './Review-card.css'
 
-export default function TestimonialCard({ 
+export default function ReviewCard({ 
     description = "Description du témoignage",
     date = "DD/MM/YYYY",
     name = "Name"
 }) {
     return(
-        <div className="testimonial-card">
+        <div className="review-card">
             <p>{description}</p>
             <p>{date}</p>
             <p>{name}</p>
