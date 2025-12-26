@@ -1,4 +1,4 @@
-export const services = [
+export const homeServices = [
   {
     id: 1,
     imageSrc: "/icons/services/releves-scans-3d.png",

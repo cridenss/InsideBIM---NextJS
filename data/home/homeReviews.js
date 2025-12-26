@@ -1,4 +1,4 @@
-export const reviews = [
+export const homeReviews = [
   {
     id: 1,
     description: "« Dans un lieu adapté et agréable, les supports riches et nombreux ainsi que l'adaptabilité du formateur en fonction des besoin, ont fait de cette formation une réussite »",

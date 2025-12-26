@@ -1,4 +1,4 @@
-import './Review-card.css'
+import './ReviewCard.css'
 
 export default function ReviewCard({ 
     description = "Description du témoignage",

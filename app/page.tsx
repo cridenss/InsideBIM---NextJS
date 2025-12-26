@@ -1,10 +1,6 @@
-import ServiceCard from "./components/home/ServiceCard/Service-card";
-import Hero from "./components/home/Hero/Hero";
-import Missions from "./components/home/Mission/Mission";
-import Certification from "./components/home/Certification/Certification";
-import ReviewCard from "./components/home/ReviewCard/Review-card";
-import { services } from "../data/home/services";
-import { reviews } from "../data/home/reviews";
+import { ServiceCard, Hero, Mission, Certification, ReviewCard } from "./components/home";
+import { homeServices, homeReviews } from "../data/home";
+
 import "./styles/page.css";
 
 export default function Home() {
@@ -16,19 +12,19 @@ export default function Home() {
 
       <section className="home__services">
         <div className="home__services-grid">
-          {services.map((service) => (
+          {homeServices.map((homeService) => (
             <ServiceCard
-              key={service.id}
-              imageSrc={service.imageSrc}
-              title={service.title}
-              description={service.description}
+              key={homeService.id}
+              imageSrc={homeService.imageSrc}
+              title={homeService.title}
+              description={homeService.description}
             />
           ))}
         </div>
       </section>
 
       <section className="home__mission">
-        <Missions />
+        <Mission />
       </section>
 
       <section className="home__certification">
@@ -40,12 +36,12 @@ export default function Home() {
           <h2 className="home__reviews-title">Ce qu'ils disent de nous</h2>
         </div>
         <div className="home__reviews-grid">
-          {reviews.map((review) => (
+          {homeReviews.map((homeReview) => (
             <ReviewCard
-              key={review.id}
-              description={review.description}
-              date={review.date}
-              name={review.name}
+              key={homeReview.id}
+              description={homeReview.description}
+              date={homeReview.date}
+              name={homeReview.name}
             />
           ))}
         </div>

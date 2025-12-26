@@ -1,4 +1,4 @@
-export default function Missions() {
+export default function Mission() {
     return(
         <div className="mission">
             <div className="mission__media">
