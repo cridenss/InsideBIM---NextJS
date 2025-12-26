@@ -1,5 +1,5 @@
 export const servicesOptions = {
-  "releves-scan-3d": [
+  "releves-scans-3d": [
     {
       id: "1",
       title:"Relevé sur site",
@@ -36,52 +36,52 @@ export const servicesOptions = {
   "carnets-de-details": [
     {
       id: "1",
-      title:"",
-      description: "",
+      title:"Détails architecturaux",
+      description: "Détails de façade, étanchéité, isolation, menuiseries, doublages et tous les points singuliers de votre projet architectural.",
     },
     {
       id: "2",
-      title:"",
-      description: "",
+      title:"Détails structurels",
+      description: "Assemblages, liaisons, fondations, éléments préfabriqués et tous les détails de structure avec dimensions et spécifications techniques.",
     },
     {
       id: "3",
-      title:"",
-      description: "",
+      title:"Détails techniques",
+      description: "Passages de réseaux, fixations, supports d’équipements et détails d’installation des lots techniques (CVC, plomberie, électricité).",
     },
   ],
   "familles-parametriques": [
     {
       id: "1",
-      title:"",
-      description: "",
+      title:"Mobilier et équipements",
+      description: "Création de familles pour mobilier architectural, équipements spécialisés, éléments décoratifs avec paramètres de dimensions et finitions.",
     },
     {
       id: "2",
-      title:"",
-      description: "",
+      title:"Menuiseries sur-mesure",
+      description: "Portes, fenêtres, vérandas, stores avec paramétrage complet : dimensions, quincaillerie, vitrages et performances thermiques.",
     },
     {
       id: "3",
-      title:"",
-      description: "",
+      title:"Équipements techniques",
+      description: "Appareils CVC, équipements industriels, luminaires avec connecteurs MEP et données techniques intégrées.",
     },
   ],
   "synthese-tce": [
     {
       id: "1",
-      title:"",
-      description: "",
+      title:"Détection automatisée",
+      description: "Analyse exhaustive des collisions entre tous les corps d’état avec classification par type et niveau de criticité.",
     },
     {
       id: "2",
-      title:"",
-      description: "",
+      title:"Reporting professionnel",
+      description: "Rapport complet avec captures d’écran, coordonnées des clashs et recommandations techniques pour la résolution.",
     },
     {
       id: "3",
-      title:"",
-      description: "",
+      title:"Solutions techniques",
+      description: "Propositions concrètes de résolution : dévoiements, modifications de tracés ou ajustements de conception selon les contraintes.",
     },
   ],
 };

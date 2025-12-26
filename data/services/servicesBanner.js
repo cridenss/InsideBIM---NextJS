@@ -1,5 +1,5 @@
 export const servicesBanner = {
-  "releves-scan-3d": {
+  "releves-scans-3d": {
     title: "Relevés et Scan 3D",
     description: "Notre service de relevés et scan 3D crée des maquettes BIM fidèles à partir de vos ouvrages existants pour vos projets de rénovation.",
     imageSrc: "",
