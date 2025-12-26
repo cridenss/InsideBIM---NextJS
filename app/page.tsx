@@ -1,7 +1,7 @@
 import { ServiceCard, Hero, Mission, Certification, ReviewCard } from "./components/home";
 import { homeServices, homeReviews } from "../data/home";
 
-import "./styles/page.css";
+import "./styles/page.scss";
 
 export default function Home() {
   return (

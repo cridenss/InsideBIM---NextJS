@@ -1,6 +1,8 @@
+@import '../../../styles/index';
+
 .service-card{
     width: 20vw;
-    background-color: #8c9c7ca4;
+    background-color: $light-green;
 }
 
 .service-card img{

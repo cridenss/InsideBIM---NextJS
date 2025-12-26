@@ -1,4 +1,4 @@
-import './Certification.css'
+import './Certification.scss'
 
 export default function Certification() {
     return(

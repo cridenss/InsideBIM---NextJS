@@ -1,4 +1,4 @@
-import "./Project.css";
+import "./Project.scss";
 
 export default function Project({
   title = "Titre du projet",

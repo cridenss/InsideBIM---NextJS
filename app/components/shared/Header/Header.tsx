@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import "./Header.css";
+import "./Header.scss";
 import { useState } from "react";
 import { CallToAction } from "@/components/shared/index"
 
