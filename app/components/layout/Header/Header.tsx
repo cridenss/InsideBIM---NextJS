@@ -74,11 +74,6 @@ export default function Header() {
               Actualités
             </Link>
           </li>
-          <li className="header__item">
-            <Link href="/contact" className="header__link">
-              Contact
-            </Link>
-          </li>
         </ul>
 
         <Link href="/contact" className="header__cta">
