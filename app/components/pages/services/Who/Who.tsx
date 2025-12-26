@@ -1,3 +1,5 @@
+import { CallToAction } from "@/components/shared";
+
 export default function Who({
     description = "",
     imageSrc = "/",
@@ -10,7 +12,7 @@ export default function Who({
             <div className="who__content">
                 <h3>Pour Qui ?</h3>
                 <p>{description}</p>
-                <button>Demander un devis</button>
+                <CallToAction text="Demander un devis" link="/contact"/>
             </div>
         </div>
     )

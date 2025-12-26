@@ -1,5 +1,5 @@
-import { Banner, OptionCard, Steps, Who } from "@/components/pages/services"
-import { servicesBanner, servicesOptions, servicesSteps, servicesWho } from "@/data/services";
+import { Banner, OptionCard, Steps, Who, Engagement } from "@/components/pages/services"
+import { servicesBanner, servicesOptions, servicesSteps, servicesWho, servicesEngagements } from "@/data/services";
 
 export default function CarnetsDeDetails() {
   const page = "releves-scans-3d";
@@ -8,15 +8,25 @@ export default function CarnetsDeDetails() {
   const options = servicesOptions[page];
   const steps = servicesSteps[page];
   const who = servicesWho[page];
+  const engagements = servicesEngagements[page];
 
   return (
     <main className="service-page">
-      <section className="service__banner">
+      <section className="service-page__banner">
         <Banner
           title={banner.title}
           description={banner.description}
           imageSrc={banner.imageSrc}
         />
+      </section>
+      <section className="service-page__engagements">
+        {engagements.map((engagement) => (
+          <Engagement
+            key={engagement.id}
+            description={engagement.description}
+            imageSrc={engagement.imageSrc}
+          />
+        ))}
       </section>
       <section className="service-page__options">
         {options.map((option) => (

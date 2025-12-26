@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "./Header.css";
 import { useState } from "react";
+import { CallToAction } from "@/components/shared/index"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Header() {
     <header className="header">
       <nav className="header__nav">
         <Link href="/" className="header__logo">
-          <Image src="/logo.png" alt="logo-insideBim" width={120} height={50} />
+          <Image src="/public/images/logo.png" alt="logo-insideBim" width={120} height={50} />
         </Link>
 
         <ul className="header__menu">
@@ -75,10 +76,11 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-
-        <Link href="/contact" className="header__cta">
-          Contactez nous
-        </Link>
+        
+        <CallToAction
+          text="Contactez nous"
+          link="/contact"
+        />
       </nav>
     </header>
   );
