@@ -1,4 +1,4 @@
-export { servicesBanner } from './servicesBanner'
+export { servicesBanner, type ServiceKey } from './servicesBanner'
 export { servicesOptions } from './servicesOptions'
 export { servicesSteps } from './servicesSteps'
 export { servicesWho } from './servicesWho'

@@ -1,3 +1,16 @@
+export type ServiceKey =
+| 'releves-scans-3d'
+| 'modelisation-bim'
+| 'carnets-de-details'
+| 'familles-parametriques'
+| 'synthese-tce'
+
+type BannerData = {
+  title: string
+  description: string
+  imageSrc: string
+}
+
 export const servicesBanner = {
   "releves-scans-3d": {
     title: "Relevés et Scan 3D",

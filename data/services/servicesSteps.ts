@@ -1,3 +1,11 @@
+import { type ServiceKey } from "./servicesBanner";
+
+type StepData = {
+  id: string
+  title: string
+  description: string
+}
+
 export const servicesSteps = {
   "releves-scans-3d": [
     {

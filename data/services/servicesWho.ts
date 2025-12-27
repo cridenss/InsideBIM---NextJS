@@ -1,3 +1,10 @@
+import { type ServiceKey } from "./servicesBanner";
+
+type WhoData = {
+  description: string
+  imageSrc: string
+}
+
 export const servicesWho = {
   "releves-scans-3d": {
     description: "Ce service s’adresse aux architectes, maîtres d’œuvre, bureaux d’études et entreprises du bâtiment intervenant en rénovation ou réhabilitation, ainsi qu’aux entreprises industrielles souhaitant une maquette 3D de leurs installations. Idéal pour tous les professionnels ayant besoin de plans fiables sur des bâtiments existants sans documentation technique.",

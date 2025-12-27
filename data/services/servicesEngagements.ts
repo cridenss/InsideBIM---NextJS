@@ -1,3 +1,11 @@
+import { type ServiceKey } from "./servicesBanner";
+
+type EngagementData = {
+  id: string
+  imageSrc: string
+  description: string
+}
+
 export const servicesEngagements = {
   "releves-scans-3d": [
     {

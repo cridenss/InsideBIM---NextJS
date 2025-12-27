@@ -1,3 +1,11 @@
+import { type ServiceKey } from "./servicesBanner";
+
+type OptionData = {
+  id: string
+  title: string
+  description: string
+}
+
 export const servicesOptions = {
   "releves-scans-3d": [
     {
