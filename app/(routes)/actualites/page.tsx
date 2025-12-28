@@ -1,8 +1,25 @@
-export default function Services() {
+import PostCard from "@/components/pages/actualites/PostCard/PostCard";
+import { articles } from "@/data/articles/articles";
+
+export default function Actualites() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6">Nos Services</h1>
-      <p>Contenu de la page Services...</p>
-    </div>
+    <main className="articles-page">
+      <section className="articles-page__banner">
+        <h2>Les actus BIM</h2>
+        <p>Description</p>
+      </section>
+
+      <section className="articles-page__grid">
+        {Object.values(articles).map((article) => (
+          <PostCard
+            key={article.id}
+            imageSrc={article.image}
+            title={article.title}
+            excerpt={article.excerpt}
+            slug={article.slug}
+          />
+        ))}
+      </section>
+    </main>
   );
 }
