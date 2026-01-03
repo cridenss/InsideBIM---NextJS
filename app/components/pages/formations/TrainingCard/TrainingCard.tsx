@@ -1,3 +1,5 @@
+import "./TrainingCard.scss"
+
 export default function TrainingCard({
   id = "",
   title = "",

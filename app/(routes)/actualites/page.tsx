@@ -1,12 +1,15 @@
 import PostCard from "@/components/pages/actualites/PostCard/PostCard";
+import Banner from "@/components/shared/Banner/Banner";
 import { articles } from "@/data/articles/articles";
 
 export default function Actualites() {
   return (
     <main className="articles-page">
       <section className="articles-page__banner">
-        <h2>Les actus BIM</h2>
-        <p>Description</p>
+        <Banner
+          title="Les actus BIM"
+          description="Découvrez nos actualités BIM, un espace pour partager connaissances, inspirations et innovations."
+        />
       </section>
 
       <section className="articles-page__grid">
