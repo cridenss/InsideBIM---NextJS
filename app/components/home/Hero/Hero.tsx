@@ -9,7 +9,7 @@ export default function Hero() {
                 <button>Découvrir nos services</button>
             </div>
             <div className='hero__media'>
-                <img src="/images/hero.png" alt="/" />
+                <img src="/assets/illustrations/hero.png" alt="/" />
             </div>
         </div>
     )

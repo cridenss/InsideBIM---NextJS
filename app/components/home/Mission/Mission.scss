@@ -1,11 +1,15 @@
-.missions{
+.mission{
     display: flex;
 }
 
-.missions-media{
+.mission__media{
     width: 50%;
+
+    img{
+        width: 100%;
+    }
 }
 
-.missions-text{
+.mission__text{
     width: 50%;
 }

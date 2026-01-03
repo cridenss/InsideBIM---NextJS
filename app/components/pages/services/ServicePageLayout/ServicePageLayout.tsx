@@ -1,4 +1,4 @@
-import { Banner, OptionCard, Steps, Who, Engagement } from "@/components/pages/services"
+import { ServiceBanner, OptionCard, Steps, Who, Engagement } from "@/components/pages/services"
 import { servicesBanner, servicesOptions, servicesSteps, servicesWho, servicesEngagements, type ServiceKey } from "@/data/services";
 import "./ServicePageLayout.scss";
 
@@ -16,7 +16,7 @@ export default function ServicePageLayout({serviceKey}: ServicePageLayoutProps){
   return (
     <main className="service-page">
       <section className="service-page__banner">
-        <Banner
+        <ServiceBanner
           title={banner.title}
           description={banner.description}
           imageSrc={banner.imageSrc}

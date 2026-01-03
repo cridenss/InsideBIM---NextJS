@@ -13,7 +13,7 @@ export default function Header() {
     <header className="header">
       <nav className="header__nav">
         <Link href="/" className="header__logo">
-          <Image src="/public/images/logo.png" alt="logo-insideBim" width={120} height={50} />
+          <Image src="/assets/logos/logo.png" alt="logo-insideBim" width={120} height={50} />
         </Link>
 
         <ul className="header__menu">
